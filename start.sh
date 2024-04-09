@@ -12,6 +12,6 @@
 # echo 10 > /proc/sys/vm/swappiness
 # swapon /swapfile
 # echo 1 > /proc/sys/vm/overcommit_memory
-npm rebuild
+# npm rebuild
 npx prisma migrate deploy
 npm run start
